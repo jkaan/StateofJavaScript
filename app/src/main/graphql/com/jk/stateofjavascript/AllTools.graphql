@@ -1,0 +1,11 @@
+query AllTools {
+  survey(survey: js) {
+    tools {
+      id
+      entity {
+        name
+        description
+      }
+    }
+  }
+}
